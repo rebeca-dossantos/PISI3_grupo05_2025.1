@@ -16,7 +16,7 @@ def traduzir_valores(df):
         'Machine Learning': 'Aprend.Máquina',
         'Python Basics': 'Fund.Python',
         'Data Science': 'Ciência de Dados',
-        'CyberSecurity': 'Ciberseg.',
+        'Cybersecurity': 'Ciberseg.',
         'Web Development' : 'Desenv.Web'
     })
     df['Estilo de Aprendizagem'] = df['Learning_Style'].map({
